@@ -25,4 +25,8 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 SecondArray(array1, array2);
+Console.WriteLine("Исходный массив");
+PrintArray (array1);
+
+Console.WriteLine("Результат выборки из исходного массива");
 PrintArray(array2);
